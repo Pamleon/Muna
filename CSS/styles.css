@@ -1,1 +1,184 @@
-h1{ text-align: center;}
+    *{font-family: 'Playpen Sans Arabic', sans-serif;
+        }
+    body{margin: 0;
+        padding: 0;
+        background:url(../ASSETS/IMG/Fondomuna-2\ copia.jpg);
+        /*background-position: 1300%;*/
+                background-size: 100% auto;
+        font-weight: 300; /* Light */}
+    h1, h2 {
+            font-weight: 500; /* Medium */
+                    }
+    .frente {text-align: center;
+        color:rgb(51, 54, 60);  /* color osuro casi negro!*/
+            }
+    .frente h1{font-size: 35px;
+        width: 1100px;
+            }
+    .logo{float: left;
+        width: 130px;
+        margin-left:15px;
+        }
+    header {color: #fff; 
+        background:url(../ASSETS/IMG/ondas\ colores.jpg);
+        background-size: cover;
+        background-position: left -100px;
+        background-repeat: no-repeat;
+        display: block; 
+        height: 200px;
+        text-align: center;
+        padding: 10px;
+            }  
+    .navegacion{/*max-width: 900px;*/
+            margin: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px;
+                }
+    .boton {
+            width: 150px;
+            text-decoration: none;
+            border-radius: 8px;
+            background-color:#f4c599;/* rgb(70, 153, 201) */
+            box-shadow: 5px 5px 10px #2b6483;/* color de latra M*/
+            text-align: center;
+            padding: 0px;
+            color:#2b6483
+            /*margin: 10px 20px;*/
+            }
+    .iconos{
+            position: absolute;
+            top: 15px ;
+            right: 15px;
+            display: flex;
+            gap: 15px;
+                }
+    .iconos a{ color:#daa2c5;/* color de letra A*/
+            text-decoration: none;
+                }
+/*---------------Nosotros--------------------------*/
+    .nosotros{text-align: center; 
+            background:url(../ASSETS/IMG/Ilustración-sin-título\ 3\ copia.png);
+            background-position:  -700px;
+            background-color: #daa2c5;
+            padding: 15px;
+            width: 1000px;
+            border-radius: 20px;
+            border: 2px solid  #2b6483;
+            margin:  20px auto;}
+    .nosotros h1,h2{color:#2b6483}
+    p{ color: #1b4f6a; /* color mas fuerte para texto*/
+        font-size: large;
+        }
+    /* -------------imagenes ----------------*/
+    .productos h3 {color:#2b6483}
+    .carousel1 h2 {text-align: center;
+                    color:#2b6483;
+                    background-color:white;
+                    margin: auto;
+                    margin-bottom: 5px;
+                    border-bottom: 1px solid #daa2c5;
+                }
+    .productos  {display:grid;/* le debo poner un template */
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));/* tamaño de un articulo de mi columna */
+        gap:15px;/* separacion de cada articulo */
+        text-align: center;
+        margin: auto;
+        max-width: 1200px;
+        margin-bottom: 15px;}
+    .productos a{color: #2b6483;
+                }
+    article{
+        padding: 8px;
+        margin-bottom: 5px;
+        border-radius: 10px;
+        overflow: hidden;
+        transition: background-color 0.3s ease;} /* color con transición*/
+
+    article img{width: 200px;
+        border-radius: 10px;
+        margin-top: 10px;
+        transition: transform 0.3s ease;
+            transform-origin: center top;}
+
+    article img:hover{transform: scale(1.08);
+                        }
+    article:hover{background-color: #bbdfdeb3;}
+
+/* ---------------------carousel---------------------------------------*/
+    
+    .carousel {
+        position: relative;
+        width: 500px;
+        overflow: hidden;
+        margin: auto;
+                }
+    .carousel-track {
+        display: flex;
+        transition: transform 0.5s ease;
+        }
+
+    .carousel img {
+        width: 300px;
+        height:400px ;
+        flex-shrink: 0;
+            }
+    .arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0,0,0,0.5);
+        color: white;
+        border: none;
+        font-size: 24px;
+        padding: 10px;
+        cursor: pointer;
+        z-index: 1;
+            }
+    .arrow.left {
+        left: 0;
+        }
+    .arrow.right {
+        right: 0;
+        }
+/*-----------------------footer-------------------------------------------*/
+    .caja1, .caja2 {
+        height: auto;
+        text-align: center;
+        width: 300px;
+        }
+    .item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            }
+    .caja4{padding-bottom: 20px;
+        }
+    .caja4 p{margin: auto;}/* me quita los margin por defecto */
+    footer{text-align: center;
+        padding-top: 3px;
+            background-color: white;
+        border-top: 1px solid #daa2c5;}
+    .cajon{display: flex;
+            justify-content: center; /* Centra horizontalmente los elementos */
+            gap: 300px;
+            color: #2b6483;
+        }                   /*  gap:Espacio entre los div */
+    footer ul{padding: 0;
+                margin: 0;
+            }
+    .navegacion1 ul {text-decoration: none;
+        list-style-type: none; /* =list style */
+        
+                }
+                .navegacion1 a {
+                    color: #daa2c5; /* Cambia este valor por el color que prefieras */
+                    text-decoration: none; /* Esto elimina la línea subrayada */
+                }
+    .item a { color:#daa2c5;/* color de letra A*/
+                text-decoration: none;
+                    }
+    span{color: #2b6483;
+            }

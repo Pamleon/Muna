@@ -3,9 +3,131 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muna  web</title>
+    <title>Muna web</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans+Arabic:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> 
+    <link href="./CSS/styles.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-    <h1>Tienda</h1>
+    <header>
+        <!-- frente un banner con imagen -->
+    <hgroup class="frente">
+        <div class="iconos">
+            <a href="https://www.facebook.com/?locale=es_ES" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            <a href="https://www.whatsapp.com/?lang=es_LA" target="_blank"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-user-circle" aria-hidden="true"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
+        </div>
+
+        <img class="logo" src="./ASSETS/IMG/C88A08FA-AEA3-4BAB-A6F8-29D0798AE9FD.png" alt="logo Muna letras">
+        <h1>Creamos regalos personalizados que transforman lo simple en algo único.</h1>
+
+    </hgroup>
+    <!-- aqui comienza la navegacion -->
+    
+    <nav class="navegacion">
+            <button class="boton" data-page="inicio">INICIO</button>
+            <button class="boton" data-page="quienes">¿QUIENES SOMOS?</button>
+            <button class="boton" data-page="productos">PRODUCTOS</button>
+            <button class="boton" data-page="contacto">CONTACTO</button>
+    </nav>
+    </header>
+        
+        <!-- aqui fin de la nav -->
+    <main id="mainContent">
+        <div class="carousel1">
+            <h2>&#10024;&#10024;NUESTROS PRODUCTOS ESTRELLAS&#10024;&#10024;</h2>
+            <section class="productos">
+                <article>
+                <img src="./Assets/IMG/totebag1.jpeg" alt="bolsa de tela">
+                    <h3>TOTE BAG 100% algodón</h3>                             <!-- titulo de mi articulo -->
+                    <p><b>15.00€</b>IVA incluido </p>                                        <!-- cuerpo del articulo -->
+                    <a href="#" target="_blank"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
+                </article>
+                <article>
+                    <img src="./Assets/IMG/libretas1.jpeg" alt="">
+                        <h3>LIBRETA A4 80Hojas lisas.</h3>                             <!-- titulo de mi articulo -->
+                        <p><b>8.00€</b>IVA incluido</p>                                        <!-- cuerpo del articulo -->
+                        <a href="#" target="_blank"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
+                </article>
+                <article>
+                <img src="./Assets/IMG/taza1.jpeg" alt="">
+                    <h3>TAZA BLANCA</h3>                             <!-- titulo de mi articulo -->
+                    <p><b>12.00€</b>IVA incluido</p>                                        <!-- cuerpo del articulo -->
+                    <a href="#" target="_blank"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
+                </article>
+                <article>
+                    <img src="./Assets/IMG/botella1.jpeg" alt="">
+                        <h3>BOTELLA BLANCA</h3>                             <!-- titulo de mi articulo -->
+                        <p><b>15.00€</b>IVA incluido</p>                                        <!-- cuerpo del articulo -->
+                        <a href="#" target="_blank"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
+                    </article>
+            </section>
+        </div>
+        <div class="carousel">
+            <button class="arrow left" onclick="moveSlide(-1)">&#10094;</button>
+            <div class="carousel-track" id="carousel-track">
+                <img src="./Assets/IMG/totebag1.jpeg" alt="Imagen 1">
+                <img src="./Assets/IMG/libretas1.jpeg" alt="Imagen 2">
+                <img src="./Assets/IMG/taza1.jpeg" alt="Imagen 3">
+                <img src="./Assets/IMG/botella1.jpeg" alt="Imagen 4">
+                <img src="./Assets/IMG/taza2.jpeg" alt="Imagen 5">
+    
+            </div>
+            <button class="arrow right" onclick="moveSlide(1)">&#10095;</button>
+            </div>
+        <div class="nosotros">
+            <h1>¿Quiénes somos?</h1>
+            <p>En <b>Muna</b>  creemos que un regalo no necesita ser grande ni costoso para emocionar. <br>
+                A veces, una taza —ese objeto tan cotidiano— puede convertirse en algo único cuando está pensada con cariño, cuando refleja una historia, un recuerdo o una conexión real entre personas. <br>
+                Este proyecto lleva el nombre de mi perrita, Muna. Ella es mi compañera leal, la que me acompaña cada día y consigue sacarme una sonrisa sin motivo aparente. <br>
+                Por eso elegí su nombre: porque representa lo auténtico, lo cálido, lo cercano. Todo lo que quiero transmitir con cada diseño. <br>
+                Trabajamos desde cero o utilizando plantillas base como punto de partida, que adaptamos y personalizamos en función de tus ideas. <br>
+                <b>Lo importante es que el resultado final siempre hable de ti, de esa persona especial, de esa ocasión única. Cada pieza es el reflejo de un proceso compartido, cuidado y hecho con mimo.</b> <br>
+                Tazas, termos, libretas, botellas, tote bags, cuadros… En mi taller, cada objeto cobra vida sin prisas y sin necesidad de grandes cantidades. <br>
+                Tanto si buscas un solo detalle como si preparas un pedido mayor, la dedicación será siempre la misma. <br>
+                En mi taller, tus ideas cobran vida. <br>
+                <h2>Gracias por acompañarme y por dejarme acompañarte en tus momentos especiales.</h2>
+            </p>
+        </div>
+    </main>
+    <footer>
+        <div class=" cajon">
+            <div class="caja1">
+                <div class="item">
+                <a href="https://www.whatsapp.com/?lang=es_LA" target="_blank"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+                <span>¡Coméntanos tu idea!</span>
+            </div>
+            <div class="item">
+                <a href="#" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                <span>¡Envíanos tu correo!</span>
+            </div>
+            <div class="item">
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <span>También nos encontraras aqui.</span>
+            </div>
+            <div class="item">
+                <a href="https://www.facebook.com/?locale=es_ES" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <span> ¡Y aqui!</span>
+            </div>
+        </div>
+        <div class="caja2">
+            <nav class="navegacion1">
+                    <ul>
+                    <li><a href="#" data-page="inicio">INICIO</a></li>
+                    <li><a href="#" data-page="¿quienes somos?">¿QUIÉNES SOMOS?</a></li>
+                    <li><a href="#" data-page="productos">PRODUCTOS</a></li>
+                    <li><a href="#" data-page="contacto">CONTACTO</a></li>
+                    </ul>
+            </nav>
+        </div>
+        </div>
+        <div class="caja4">
+            <p>Muna.com &copy; Todos los derechos reservados|2025</p> 
+        </div>
+        </footer>
+        <script src="./JS/app.js"></script>
 </body>
 </html>
