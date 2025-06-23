@@ -14,7 +14,8 @@
         color:rgb(51, 54, 60);  /* color osuro casi negro!*/
             }
     .frente h1{font-size: 35px;
-        width: 1100px;
+        display: flex;
+        /*width: 1100px;*/
             }
     .logo{float: left;
         width: 130px;
@@ -61,7 +62,7 @@
                 }
 /*---------------Nosotros--------------------------*/
     .nosotros{text-align: center; 
-            background:url(../Assets/IMG/Ilustración-sin-título\ 3\ copia.png);
+            background:url(../ASSETS/IMG/Ilustración-sin-título\ 3\ copia.png);
             background-position:  -700px;
             background-color: #daa2c5;
             padding: 15px;
@@ -162,8 +163,7 @@
         padding-top: 3px;
             background-color: white;
         border-top: 1px solid #daa2c5;}
-    .cajon{display: flex;
-            justify-content: center; /* Centra horizontalmente los elementos */
+    .cajon{ justify-content: center; /* Centra horizontalmente los elementos */
             gap: 300px;
             color: #2b6483;
         }                   /*  gap:Espacio entre los div */
@@ -182,5 +182,81 @@
                 text-decoration: none;
                     }
     span{color: #2b6483;
+            }
+/*---------@ media ------------------------------*/
+            @media (max-width: 760px) {
+                body{background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;}
+            header {
+                height: auto;
+                padding: 20px;
+                background-position: center;
+                text-align: center;
+                }
+            .iconos {
+                position: static;
+                justify-content: center;
+                margin-bottom: 10px;
+                }
+            .logo {
+                float: none;
+                display: block;
+                margin: 0 auto 10px auto;
+                width: 100px;
+                }
+            .frente h1 {
+                font-size: 22px;
+                width: auto;
+                padding: 10px;
+                }
+            .navegacion {
+                flex-direction: column;
+                gap: 10px;
+                }
+            .boton {
+                width: 90%;
+                padding: 10px;
+                font-size: 16px;
+                }
+            .nosotros {
+                width: 90%;
+                background-position: center;
+                padding: 10px;
+                }
+            .carousel img {
+                width: 100%;
+                height: auto;
+                }
+            .cajon {
+                flex-direction: column;
+                align-items: center;
+                }
+                footer{padding: 10px;
+                    font-size: 13px;}
+            footer .navegacion1 ul {
+                flex-direction: column;
+                padding-left: 0;
+                
+                }
+            .carousel1 h2 {
+                font-size: 20px;
+                padding: 10px;
+                }
+            .productos {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                }
+            .productos article {
+                width: 90%;
+                margin-bottom: 20px;
+                }
+            }
+            @media (min-width: 761px) and (max-width: 1024px){
+                .carousel img {
+                    width: 100%;
+                    height: auto;
+                    }
             }
 
