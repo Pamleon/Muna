@@ -3,7 +3,7 @@
         }
     body{margin: 0;
         padding: 0;
-        background:url(../ASSETS/IMG/Fondomuna-2\ copia.jpg);
+        background:url(../Assets/IMG/Fondomuna-2\ copia.jpg);
         /*background-position: 1300%;*/
                 background-size: 100% auto;
         font-weight: 300; /* Light */}
@@ -21,7 +21,7 @@
         margin-left:15px;
         }
     header {color: #fff; 
-        background:url(../ASSETS/IMG/ondas\ colores.jpg);
+        background:url(../Assets/IMG/ondas\ colores.jpg);
         background-size: cover;
         background-position: left -100px;
         background-repeat: no-repeat;
@@ -61,7 +61,7 @@
                 }
 /*---------------Nosotros--------------------------*/
     .nosotros{text-align: center; 
-            background:url(../ASSETS/IMG/Ilustración-sin-título\ 3\ copia.png);
+            background:url(../Assets/IMG/Ilustración-sin-título\ 3\ copia.png);
             background-position:  -700px;
             background-color: #daa2c5;
             padding: 15px;
