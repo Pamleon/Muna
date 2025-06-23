@@ -163,7 +163,8 @@
         padding-top: 3px;
             background-color: white;
         border-top: 1px solid #daa2c5;}
-    .cajon{ justify-content: center; /* Centra horizontalmente los elementos */
+    .cajon{display: flex;
+            justify-content: center; /* Centra horizontalmente los elementos */
             gap: 300px;
             color: #2b6483;
         }                   /*  gap:Espacio entre los div */
@@ -185,7 +186,9 @@
             }
 /*---------@ media ------------------------------*/
             @media (max-width: 760px) {
-                body{background-repeat: no-repeat;
+                body{background:url(../Assets/IMG/Fondomuna.jpg);
+                    background-position: 5%;
+                    background-repeat: no-repeat;
                     background-size: cover;
                     background-position: center;}
             header {
@@ -199,6 +202,9 @@
                 justify-content: center;
                 margin-bottom: 10px;
                 }
+            .iconos a{ color:white;/* color de letra A*/
+                    text-decoration: none;
+                        }
             .logo {
                 float: none;
                 display: block;
@@ -211,7 +217,6 @@
                 padding: 10px;
                 }
             .navegacion {
-                flex-direction: column;
                 gap: 10px;
                 }
             .boton {
@@ -225,20 +230,24 @@
                 padding: 10px;
                 }
             .carousel img {
-                width: 100%;
+                width: 60%;
                 height: auto;
                 }
-            .cajon {
+            .cajon {display: block;
                 flex-direction: column;
                 align-items: center;
                 }
                 footer{padding: 10px;
+                    margin: 5px;
+                    text-align: center;
                     font-size: 13px;}
             footer .navegacion1 ul {
-                flex-direction: column;
                 padding-left: 0;
-                
                 }
+            footer .item{display: block;}
+            .carousel-track{
+                            width: 100%;
+            }
             .carousel1 h2 {
                 font-size: 20px;
                 padding: 10px;
