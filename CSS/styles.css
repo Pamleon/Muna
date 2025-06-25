@@ -8,18 +8,19 @@
                 background-size: 100% auto;
         font-weight: 300; /* Light */}
     h1, h2 {
-            font-weight: 500; /* Medium */
+            font-weight: 300; /* Medium */
                     }
     .frente {text-align: center;
         color:rgb(51, 54, 60);  /* color osuro casi negro!*/
             }
-    .frente h1{font-size: 35px;
-        display: flex;
-        /*width: 1100px;*/
+    .frente h1{font-size: 30px;
+            margin-top: 30px;
+            margin-bottom: 0px;
             }
     .logo{float: left;
-        width: 130px;
-        margin-left:15px;
+        width: 100px;
+        margin-left: 20px;
+        margin-top: 20px;
         }
     header {color: #fff; 
         background:url(../Assets/IMG/ondas\ colores.jpg);
@@ -27,7 +28,7 @@
         background-position: left -100px;
         background-repeat: no-repeat;
         display: block; 
-        height: 200px;
+        height: 180px;
         text-align: center;
         padding: 10px;
             }  
@@ -39,23 +40,30 @@
             gap: 20px;
             padding: 10px;
                 }
-    .boton {
-            width: 150px;
+    .boton {background: none;
+        border: none;
+        color: inherit;
+        font: inherit;
+        padding: 0;
+        cursor: pointer;
             text-decoration: none;
-            border-radius: 8px;
-            background-color:#f4c599;/* rgb(70, 153, 201) */
-            box-shadow: 5px 5px 10px #2b6483;/* color de latra M*/
             text-align: center;
-            padding: 0px;
-            color:#2b6483
-            /*margin: 10px 20px;*/
+            color:#daa2c5;
+            font-weight: 500px;
+            text-shadow:
+            -1px -1px 0 black,
+            1px -1px 0 black,
+            -1px  1px 0 black,
+            1px  1px 0 black; /* Simula un contorno negro */
+            display: block;
+            margin-right: 15px;
             }
     .iconos{
             position: absolute;
             top: 15px ;
             right: 15px;
             display: flex;
-            gap: 15px;
+            gap: 20px;
                 }
     .iconos a{ color:#daa2c5;/* color de letra A*/
             text-decoration: none;
@@ -64,7 +72,7 @@
     .nosotros{text-align: center; 
             background:url(../ASSETS/IMG/Ilustración-sin-título\ 3\ copia.png);
             background-position:  -700px;
-            background-color: #daa2c5;
+            background-color: #f1e1ec;
             padding: 15px;
             width: 1000px;
             border-radius: 20px;
@@ -145,6 +153,30 @@
     .arrow.right {
         right: 0;
         }
+/* --------- Producto interactivo-----------------*/
+        .productos-interactivos {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+          }
+          
+          .producto {
+            border: 1px solid #ccc;
+            padding: 10px;
+            width: 220px;
+            text-align: center;
+          }
+          
+          .producto img {
+            width: 100%;
+            height: auto;
+          }
+          
+          .plantillas img {
+            width: 60px;
+            margin: 5px;
+            cursor: pointer;
+          }
 /*-----------------------footer-------------------------------------------*/
     .caja1, .caja2 {
         height: auto;
@@ -162,7 +194,8 @@
     footer{text-align: center;
         padding-top: 3px;
             background-color: white;
-        border-top: 1px solid #daa2c5;}
+        border-top: 1px solid #daa2c5;
+        }
     .cajon{display: flex;
             justify-content: center; /* Centra horizontalmente los elementos */
             gap: 300px;
@@ -172,8 +205,7 @@
                 margin: 0;
             }
     .navegacion1 ul {text-decoration: none;
-        list-style-type: none; /* =list style */
-        
+            list-style-type: none; /* =list style */
                 }
                 .navegacion1 a {
                     color: #daa2c5; /* Cambia este valor por el color que prefieras */
