@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Regalos personalizados,originales, momentos especiales. Creamos regalos personalizados que transforman lo simple en algo único.">
+    <meta name="keywords" content="Muna, regalos personalizados, original">
+    <meta name="author" content="Muna">
     <title>Muna web</title>
     <link rel="icon" href="./Assets/IMG/M.png" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans+Arabic:wght@300;500&display=swap" rel="stylesheet">
@@ -19,11 +22,11 @@
             <a href="#" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
             <a href="https://www.whatsapp.com/?lang=es_LA" target="_blank"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
             <a href="#" target="_blank"><i class="fa fa-user-circle" aria-hidden="true"></i></a>
-            <a href="#" target="_blank"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
+            <a href="#" target="_blank"><i class="fas fa-shopping-basket"></i></a>
         </div>
 
         <img class="logo" src="./Assets/IMG/C88A08FA-AEA3-4BAB-A6F8-29D0798AE9FD.png" alt="logo Muna letras">
-        <h1>Creamos regalos personalizados que transforman lo simple en algo único.</h1>
+        <h1>Creamos regalos personalizados que transforman <br>lo simple en algo único.</h1>
 
     </hgroup>
     <!-- aqui comienza la navegacion -->
@@ -35,7 +38,7 @@
             <button class="boton" data-page="contacto">CONTACTO</button>
     </nav>
     </header>
-        
+    
         <!-- aqui fin de la nav -->
     <main id="mainContent">
         <div class="carousel1">
@@ -48,19 +51,19 @@
                     <a href="#" target="_blank"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
                 </article>
                 <article>
-                    <img src="./Assets/IMG/libretas1.jpeg" alt="">
+                    <img src="./Assets/IMG/libretas1.jpeg" alt="tres libretas">
                         <h3>LIBRETA A4 80Hojas lisas.</h3>                             <!-- titulo de mi articulo -->
                         <p><b>8.00€</b>IVA incluido</p>                                        <!-- cuerpo del articulo -->
                         <a href="#" target="_blank"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
                 </article>
                 <article>
-                <img src="./Assets/IMG/taza1.jpeg" alt="">
+                <img src="./Assets/IMG/taza1.jpeg" alt="taza con manitos">
                     <h3>TAZA BLANCA</h3>                             <!-- titulo de mi articulo -->
                     <p><b>12.00€</b>IVA incluido</p>                                        <!-- cuerpo del articulo -->
                     <a href="#" target="_blank"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
                 </article>
                 <article>
-                    <img src="./Assets/IMG/botella1.jpeg" alt="">
+                    <img src="./Assets/IMG/botella1.jpeg" alt="botella niña">
                         <h3>BOTELLA BLANCA</h3>                             <!-- titulo de mi articulo -->
                         <p><b>15.00€</b>IVA incluido</p>                                        <!-- cuerpo del articulo -->
                         <a href="#" target="_blank"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
@@ -75,11 +78,29 @@
                 <img src="./Assets/IMG/taza1.jpeg" alt="Imagen 3">
                 <img src="./Assets/IMG/botella1.jpeg" alt="Imagen 4">
                 <img src="./Assets/IMG/taza2.jpeg" alt="Imagen 5">
-    
             </div>
             <button class="arrow right" onclick="moveSlide(1)">&#10095;</button>
             </div>
-        <div class="nosotros">
+    <section id="productos" class="productos-interactivos">
+                <div class="producto">
+                <img src="./Assets/IMG/taza1.jpeg" alt="Taza con manitos" class="imagen-principal">
+                <button class="ver-detalles">Ver detalles</button>
+                
+                <div class="detalles" style="display: none;">
+                    <p><strong>TAZA BLANCA</strong></p>
+                    <p>Precio: 12,00€ (IVA incluido)</p>
+                    <p>Material: cerámica blanca</p>
+                    
+                    <p><strong>Plantillas disponibles:</strong></p>
+                <div class="plantillas">
+                    <img src="./Assets/IMG/plantilla-dibujoreal.png" alt="Plantilla 1">
+                    <img src="./Assets/IMG/plantilla2.jpeg" alt="Plantilla 2">
+                    <img src="./Assets/IMG/plantilla3.jpeg" alt="Plantilla 3">
+                </div>
+                </div>
+                </div>
+    </section>
+        <div class="nosotros" id="nosotros">
             <h1>¿Quiénes somos?</h1>
             <p>En <b>Muna</b>  creemos que un regalo no necesita ser grande ni costoso para emocionar. <br>
                 A veces, una taza —ese objeto tan cotidiano— puede convertirse en algo único cuando está pensada con cariño, cuando refleja una historia, un recuerdo o una conexión real entre personas. <br>
