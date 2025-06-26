@@ -6,7 +6,7 @@
     <meta name="description" content="Regalos personalizados,originales, momentos especiales. Creamos regalos personalizados que transforman lo simple en algo único.">
     <meta name="keywords" content="Muna, regalos personalizados, original">
     <meta name="author" content="Muna">
-    <title>Muna web</title>
+    <title>Muna contacto</title>
     <link rel="icon" href="./Assets/IMG/M.png" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans+Arabic:wght@300;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> 
@@ -38,12 +38,51 @@
         <a href="./Contacto.html" class="boton">CONTACTO</a>
     </nav>
     </header>
-    
-        <!-- aqui fin de la nav -->
+<!-- ------------  Aqui comienza mi formm --------------  -->   
     <main id="mainContent-2">
-<!--  seccion productos -------------------------------------------->
-
+        <h2 class="titulo-principal-pulso">&#10024;&#10024; En mi taller tus ideas cobran vida &#10024;&#10024;</h2>
+        <form class="cliente" id="formCli" onsubmit="almacenarCli()">
+        <fieldset>
+            <legend>Datos de nuevo usuario:</legend>
+            <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" pattern="[A-Z a-z ñçàèìòùáéíóú]{3,20}"
+                    title="Acepta solo entre 3 y 20 letras "required placeholder="Ingrese su nombre:"/> 
+            <label for="nombre">Apellidos:</label>
+                <input type="text" id="apellido" name="apellido" pattern="[A-Z a-z ñçàèìòùáéíóú]{3,20}"
+                    title="Acepta solo entre 3 y 20 letras "required placeholder="Ej: Sanchez Marin"/> 
+        <br>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required placeholder="Ingrese su correo electronico:">
+        <br>
+            <label for="telefono">Telefono: </label>
+            <input type="text" id="telefono" name="telefono" pattern="[0-9]{9}" placeholder="Ingrese su número de teléfono:">
+            <br>
+            
+            <label for="comentarios">Comentanos aquí tu idea:</label>
+            <textarea id="comentarios" name="comentarios" rows="5" cols="40" placeholder="Escribe aquí tus comentarios..."></textarea>
+            <label for="archivo">Carga tu archivo (PDF, JPG, PNG):</label>
+            <input type="file" id="archivo" name="archivo" accept=".pdf, .jpg, .jpeg, .png" />
+            <label for="interes">¿Qué te interesa?</label>
+                <select name="interes" id="interes">
+                        <option value="personalizado">Regalos personalizados</option>
+                        <option value="eventos">Decoración para eventos</option>
+                        <option value="otros">Otros</option>
+                </select>
+            <label>
+                <input type="checkbox" required />
+                Acepto los <a href="/terminos.html" target="_blank">términos y condiciones</a> y la 
+                <a href="/privacidad.html" target="_blank">política de privacidad</a>.
+            </label>
+        </fieldset>
+        
+        </fieldset><!-- BOTONES CON FUNCIONES  -->
+            <div class="centrar">
+                <button class="borrar" type="reset">Borrar</button>
+                <button class="enviar" id="nuevoCli"  type="submit">Enviar</button>
+        </div>
+        </form>
     </main>
+<!--------- Footer -------------------------------------------->
     <footer>
         <div class=" cajon">
             <div class="caja1">
