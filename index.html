@@ -19,21 +19,23 @@
         <div class="iconos">
             <a href="https://www.facebook.com/?locale=es_ES" target="_blank"><i class="fab fa-facebook-f"></i></a>
             <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="#" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            <a href="mailto:muna@muna.com"><i class="fa fa-envelope"></i></a>
             <a href="https://www.whatsapp.com/?lang=es_LA" target="_blank"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
-            <a href="#" target="_blank"><i class="fa fa-user-circle" aria-hidden="true"></i></a>
+            <a href="#" onclick="abrirModal()" aria-label="Iniciar sesión">
+                <i class="fa fa-user-circle" aria-hidden="true"></i>
+            </a>
             <a href="#" target="_blank"><i class="fas fa-shopping-basket"></i></a>
         </div>
 
         <img class="logo" src="./Assets/IMG/C88A08FA-AEA3-4BAB-A6F8-29D0798AE9FD.png" alt="logo Muna letras">
-        <h1>CREAMOS REGALOS PERSONALIZADOS QUE TRANSFORMAN <br>LO SIMPLE EN ALGO ÚNICO.</h1>
+        <h1>Creamos regalos personalizados que transforman <br>lo simple en algo único.</h1>
 
     </hgroup>
     <!-- aqui comienza la navegacion -->
     
     <nav class="navegacion">
         <a href="./index.html" class="boton" >INICIO</a>
-        <a href="#" class="boton">¿QUIENES SOMOS?</a>
+        <a href="#nosotros" class="boton">¿QUIÉNES SOMOS?</a>
         <a href="./PAGES/Productos.html" class="boton" >PRODUCTOS</a>
         <a href="./PAGES/Contacto.html" class="boton">CONTACTO</a>
     </nav>
@@ -42,30 +44,30 @@
         <!-- aqui fin de la nav -->
     <main id="mainContent">
         <div class="carousel1">
-            <h2 class="titulo-principal-pulso">&#10024;&#10024; NUESTROS PRODUCTOS ESTRELLA &#10024;&#10024;</h2>
+            <h2 class="titulo-principal-pulso">&#10024;&#10024; Nuestros productos estrella &#10024;&#10024;</h2>
             <section class="productos">
                 <article>
-                <img src="./Assets/IMG/totebag1.jpeg" alt="bolsa de tela">
+                <img src="./Assets/IMG/totebag1.jpeg" alt="Bolsa tote bag 100% algodón color natural con asas largas">
                     <h3>TOTE BAG 100% algodón</h3>                             <!-- titulo de mi articulo -->
-                    <p><b>15.00€</b>IVA incluido </p>                                        <!-- cuerpo del articulo -->
+                    <p><b>15.00€</b>IVA incluido </p>                           <!-- cuerpo del articulo -->
                     <a href="#" target="_blank"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
                 </article>
                 <article>
-                    <img src="./Assets/IMG/libretas1.jpeg" alt="tres libretas">
+                    <img src="./Assets/IMG/libretas1.jpeg" alt="Libretas 100 hojas papel reciclado tapa dura ">
                         <h3>LIBRETA A4 80Hojas lisas.</h3>                             <!-- titulo de mi articulo -->
-                        <p><b>8.00€</b>IVA incluido</p>                                        <!-- cuerpo del articulo -->
+                        <p><b>8.00€</b>IVA incluido</p>                                        
                         <a href="#" target="_blank"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
                 </article>
                 <article>
-                <img src="./Assets/IMG/taza1.jpeg" alt="taza con manitos">
+                <img src="./Assets/IMG/taza1.jpeg" alt="Taza de porcelana ">
                     <h3>TAZA BLANCA</h3>                             <!-- titulo de mi articulo -->
-                    <p><b>12.00€</b>IVA incluido</p>                                        <!-- cuerpo del articulo -->
+                    <p><b>12.00€</b>IVA incluido</p>                                        
                     <a href="#" target="_blank"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
                 </article>
                 <article>
-                    <img src="./Assets/IMG/botella1.jpeg" alt="botella niña">
+                    <img src="./Assets/IMG/botella1.jpeg" alt="Botella 700ml acero inoxidable">
                         <h3>BOTELLA BLANCA</h3>                             <!-- titulo de mi articulo -->
-                        <p><b>15.00€</b>IVA incluido</p>                                        <!-- cuerpo del articulo -->
+                        <p><b>15.00€</b>IVA incluido</p>                      
                         <a href="#" target="_blank"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
                     </article>
             </section>
@@ -83,8 +85,8 @@
             </div>
 
 <!-- NOSOSTROS------------------------------- -->
-        <div class="nosotros" id="nosotros">
-            <h1><b>¿Quiénes somos?</b></h1>
+        <section id="nosotros" class="nosotros">
+            <h1>¿Quiénes somos?</h1>
             <p>En <b>Muna</b>  creemos que un regalo no necesita ser grande ni costoso para emocionar. <br>
                 A veces, una taza —ese objeto tan cotidiano— puede convertirse en algo único cuando está pensada con cariño, cuando refleja una historia, un recuerdo o una conexión real entre personas. <br>
                 Este proyecto lleva el nombre de mi perrita, Muna. Ella es mi compañera leal, la que me acompaña cada día y consigue sacarme una sonrisa sin motivo aparente. <br>
@@ -92,11 +94,12 @@
                 Trabajamos desde cero o utilizando plantillas base como punto de partida, que adaptamos y personalizamos en función de tus ideas. <br>
                 <b>Lo importante es que el resultado final siempre hable de ti, de esa persona especial, de esa ocasión única. Cada pieza es el reflejo de un proceso compartido, cuidado y hecho con mimo.</b> <br>
                 Tazas, termos, libretas, botellas, tote bags, cuadros… En mi taller, cada objeto cobra vida sin prisas y sin necesidad de grandes cantidades. <br>
-                Tanto si buscas un solo detalle como si preparas un pedido mayor, la dedicación será siempre la misma. <br>
-                En mi taller, tus ideas cobran vida. <br>
+                Tanto si buscas un solo detalle como si preparas un pedido mayor, la dedicación será siempre la misma. 
+                <br></p>
+                <p><b>En mi taller, tus ideas cobran vida.</b></p> 
                 <h2><b>Gracias por acompañarme y por dejarme acompañarte en tus momentos especiales.</b></h2>
-            </p>
-        </div>
+            
+        </section>
     </main>
     <footer>
         <div class=" cajon">
@@ -121,10 +124,10 @@
         <div class="caja2">
             <nav class="navegacion1">
                     <ul>
-                    <li><a href="#" data-page="inicio">INICIO</a></li>
-                    <li><a href="#" data-page="¿quienes somos?">¿QUIÉNES SOMOS?</a></li>
-                    <li><a href="#" data-page="productos">PRODUCTOS</a></li>
-                    <li><a href="#" data-page="contacto">CONTACTO</a></li>
+                    <li><a href="./index.html" class="boton1"  data-page="inicio">INICIO</a></li>
+                    <li><a href="#nosotros" class="boton1" data-page="¿quienes somos?">¿QUIÉNES SOMOS?</a></li>
+                    <li><a href="./PAGES/Productos.html" class="boton1"data-page="productos">PRODUCTOS</a></li>
+                    <li><a href="./PAGES/Contacto.html" class="boton1" data-page="contacto">CONTACTO</a></li>
                     </ul>
             </nav>
         </div>
@@ -133,6 +136,37 @@
             <p>Muna.com &copy; Todos los derechos reservados|2025</p> 
         </div>
         </footer>
-        <script src="./JS/app.js"></script>
+<!-- -----------------    Modal de login ----------------->
+    <div id="modalLogin" class="modal">
+        <div class="modal-contenido">
+            <span class="cerrar" onclick="cerrarModal()">&times;</span>
+            <h2>MI cuenta de usuario</h2>
+            <form class="clienteModal">
+            <fieldset>
+                <legend>Crear nuevo usuario</legend>
+                <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" pattern="[A-Za-zñÑáéíóúÁÉÍÓÚ ]{3,20}" required placeholder="Nombre" />
+                <label for="apellido">Apellidos:</label>
+                    <input type="text" id="apellido" name="apellido" pattern="[A-Za-zñÑáéíóúÁÉÍÓÚ ]{3,20}" required placeholder="Apellidos" />
+                <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required placeholder="ejemplo@correo.com" />
+                <label for="password">Contraseña:</label>
+                    <input type="password" id="password" name="password" required placeholder="Crea una contraseña" />
+                </fieldset>
+                <fieldset>
+                <legend>Iniciar sesión</legend>
+                <label for="loginEmail">Email:</label>
+                    <input type="email" id="loginEmail" name="loginEmail" required placeholder="Correo registrado" />
+                <label for="loginPass">Contraseña:</label>
+                    <input type="password" id="loginPass" name="loginPass" required placeholder="Tu contraseña" />
+                </fieldset>
+            <div class="centrar">
+                <button class="borrar" type="reset">Borrar</button>
+                <button class="enviar" type="submit">Enviar</button>
+            </div>
+            </form>
+        </div>
+    </div>
+    <script src="./JS/app.js"></script>
 </body>
 </html>

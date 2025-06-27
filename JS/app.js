@@ -10,4 +10,9 @@ function moveSlide(direction) {
   track.style.transform = `translateX(-${500 * currentIndex}px)`;
 }
 
-
+function abrirModal() {
+  document.getElementById("modalLogin").style.display = "block";
+}
+function cerrarModal() {
+  document.getElementById("modalLogin").style.display = "none";
+}
